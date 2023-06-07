@@ -18,7 +18,4 @@ var server = http.createServer((req, response) => {
         response.end('invalid request');
     }
 });
-server.listen(8000, '127.0.0.1', () => {
-    console.log('server has started');
-
-});
+server.listen(8000);
