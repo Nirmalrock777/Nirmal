@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action-page.php">
+  <fieldset>  
+    <legend> Register form</legend><label for="fname">firstname:</label>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Lastname</label>
+<input type="text" id="lname" name="lname"><br>
+<label for="title">title:</label>
+<input type="radio" id="title"><label for="title">Mr.</label>
+<input type="radio" id="title"><label for="title">Mrs.</label>
+<input type="radio" id="title"><label for="title">Miss</label>
+<input type="radio" id="title"><label for="title">Phd</label><br>
+<label for="payment">payment</label>
+    <select name="select" id="payment">
+<option value="visa">visa</option><br>
+<option value="mastercard">mastercard</option><br>
+<option value="rupay">rupay</option><br>
+<option value="maestro">maestro</option></select><br>
+<label for="email">email</label>
+<input type="email" id="email" placeholder="johndoe@abc.com"><br>
+<label for="birthday">birthday:</label>
+<input type="date" id="birthday" min="2000-01-01" max="2010-01-01">
+<br><label for="qty">Quantity:</label>
+<input type="number" min="1" max="100"><br>
+<label for="phone">Phone.no:</label>
+<input type="tel" id="phone" maxlength="10"><label for="">max 10 char</label><br>
+<label for="rating">rateus</label>
+1<input type="range" step="25" value="50">5
+<br><label for="subscribe">subscribe</label>
+<input type="checkbox" id="subscribe">
+<br>
+<label for="reset"></label>
+<input type="reset" id="reset">
+<br>
+<label for="submit"></label>
+<input type="submit" id="submit"></fieldset>
+</form>
+<!-- <button style="color: blue; background-color: brown;">css style</button> -->
+
+</body>
+</html>
